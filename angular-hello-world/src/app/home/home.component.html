@@ -1,0 +1,17 @@
+<p>
+  home works!
+</p>
+
+<form>
+  username: <input type="text" name="username"
+                    [(ngModel)]="usernameStr"/>
+  <br>
+  password: <input type="text" name="password"
+                    [(ngModel)]="passwordStr" />
+  <br>
+  <button (click)="onSubmit()" name="submitButton" type="button">Submit</button>
+</form>
+
+username is: {{usernameStr}}
+<br>
+password is: {{passwordStr}}
